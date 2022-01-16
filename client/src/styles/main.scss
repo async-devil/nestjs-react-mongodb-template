@@ -1,0 +1,44 @@
+@import "./colors";
+
+body {
+  height: 100vh;
+
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+  background-color: $bg-color-primary;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#app {
+  width: 50vw;
+  height: 50vh;
+
+  padding: 0 2rem;
+
+  background-color: $bg-color-secondary;
+  color: $text-color-primary;
+
+  text-align: center;
+
+  h1 {
+    padding: 2rem 0;
+  }
+
+  b {
+    color: $green;
+  }
+
+  .app__backend-status {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+
+    background-color: $bg-color-additional;
+
+    p {
+      color: $text-color-secondary;
+    }
+  }
+}
