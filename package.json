@@ -27,6 +27,8 @@
   ],
   "scripts": {
     "start:dev": "concurrently --kill-others-on-fail \"yarn workspace server start:dev\" \"yarn workspace client start\"",
+    "start:server": "yarn workspace server start:dev",
+    "start:client": "yarn workspace client start",
     "test": "jest",
     "test:client": "cd client && jest",
     "test:server": "cd server && jest"

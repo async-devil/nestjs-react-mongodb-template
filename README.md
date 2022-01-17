@@ -34,6 +34,8 @@ More information about technologies is inside client and server folders.
 # Commands
 
 - `yarn start:dev` start developing session
+- `yarn start:server` start server in developing mode
+- `yarn start:client` start client in developing mode
 - `yarn test` test client and server
 - `yarn test:client` test client
 - `yarn test:server` test server
