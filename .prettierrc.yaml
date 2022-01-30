@@ -15,6 +15,10 @@ overrides:
     options:
       parser: css
 
+  - files: "*.scss"
+    options:
+      parser: scss
+
   - files: "*.{yaml,yml}"
     options:
       parser: yaml
@@ -22,3 +26,11 @@ overrides:
   - files: "*.md"
     options:
       parser: markdown
+
+  - files: "*.json"
+    options:
+      parser: json
+
+  - files: "*.html"
+    options:
+      parser: html

@@ -3,7 +3,7 @@ import { ApiOperation, ApiResponse } from "@nestjs/swagger";
 
 import { AppService } from "./app.service";
 
-@Controller("/api")
+@Controller()
 export class AppController {
 	constructor(private readonly appService: AppService) {}
 

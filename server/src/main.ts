@@ -10,11 +10,13 @@ async function bootstrap() {
 	const app = await NestFactory.create(AppModule);
 	const config = new DocumentBuilder().setTitle("Nestjs template").setVersion("1.0.0").build();
 
+	app.setGlobalPrefix("api");
+
 	const document = SwaggerModule.createDocument(app, config);
 	SwaggerModule.setup("/api/docs", app, document);
 
-	Logger.log(`Server is starting on http://localhost:${port}`, "NestApplication");
 	await app.listen(port);
+	Logger.log(`Server is starting on http://localhost:${port}`, "NestApplication");
 }
 
 void bootstrap();

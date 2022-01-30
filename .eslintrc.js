@@ -20,7 +20,7 @@ const mainRules = {
 	],
 	"import/no-extraneous-dependencies": [
 		"error",
-		{ devDependencies: ["**/*.test.ts", "**/*.spec.ts", "**/*.e2e-spec.ts"] },
+		{ devDependencies: ["**/*.spec.tsx", "**/*.spec.ts", "**/*.e2e-spec.ts"] },
 	],
 
 	"jsx-quotes": [1, "prefer-double"],
@@ -64,10 +64,11 @@ module.exports = {
 
 		"plugin:sonarjs/recommended",
 		"plugin:promise/recommended",
+		"plugin:security-node/recommended",
 	],
 	ignorePatterns: ["**/*.cjs"],
 	rules: mainRules,
-	plugins: ["prettier", "import", "react", "react-hooks", "sonarjs", "promise"],
+	plugins: ["prettier", "import", "react", "react-hooks", "sonarjs", "promise", "security-node"],
 	settings: { react: { version: "detect" } },
 	overrides: [
 		{

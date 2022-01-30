@@ -1,48 +1,73 @@
-# NestJS-React-MongoDB template [![wakatime](https://wakatime.com/badge/user/bc8fa60c-fa34-4507-b70f-24bdba32a74d/project/cb758364-5c0d-4ba7-9fd1-816058d6c2d7.svg)](https://wakatime.com/badge/user/bc8fa60c-fa34-4507-b70f-24bdba32a74d/project/cb758364-5c0d-4ba7-9fd1-816058d6c2d7) <hr/>
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+</p>
 
-This template is based on the [Create React App](https://github.com/facebook/create-react-app) and the [NestJS](https://nestjs.com/) project builder.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-# Technologies:
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-- Server:
+## Description
 
-  - NestJS
-  - Mongoose
-  - Swagger
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-- Client:
+## Installation
 
-  - React
-  - Styled components
-  - SCSS
+```bash
+$ npm install
+```
 
-- General:
+## Running the app
 
-  - Typescript
-  - Prettier
-  - Eslint
-  - Jest
+```bash
+# development
+$ npm run start
 
-More information about technologies is inside client and server folders.
+# watch mode
+$ npm run start:dev
 
-# How to install additional packages:
+# production mode
+$ npm run start:prod
+```
 
-1. `cd client | server`
-2. `yarn add package`
-3. `cd ../`
+## Test
 
-# Commands
+```bash
+# unit tests
+$ npm run test
 
-- `yarn start:dev` start developing session
-- `yarn start:server` start server in developing mode
-- `yarn start:client` start client in developing mode
-- `yarn test` test client and server
-- `yarn test:client` test client
-- `yarn test:server` test server
+# e2e tests
+$ npm run test:e2e
 
-You can use also scripts which are inside the folders.
+# test coverage
+$ npm run test:cov
+```
 
-# Environment variables:
+## Support
 
-Template supports developing and production env files. Will be using `.env.development` file for developing scripts and `.env.production` for build purposes.
-All information about available parameters for environment is inside the folders.
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
