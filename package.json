@@ -1,10 +1,24 @@
 {
-  "name": "test-react",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "name": "nestjs-react-mongodb-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "author": "async-devil",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/async-devil/nestjs-react-mongodb-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/async-devil/nestjs-react-mongodb-template/issues"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "Node.js",
+    "Nestjs",
+    "React",
+    "Fullstack"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist && rm -rf build",
     "build:server": "tsc --project ./server/config/tsconfig.server.json",
